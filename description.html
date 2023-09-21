@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/description.css">
+    <title>Qu'est-ce que l'IMC ?</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>L'indice de masse corporelle</h1>
+    </header>
+
+    <aside>
+        <p><a href="index.html">Accueil</a></p>
+        <p><a href="description.html">L'IMC</a></p>
+        <p><a href="A propos.html">A propos de ce site</a></p>
+    </aside>
+
+    
+        <div class="nav nav-tabs" id="nav-tab" role="tablist">
+            <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home"
+                type="button" role="tab" aria-controls="nav-home" aria-selected="true">Qu'est-ce ?</button>
+            <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile"
+                type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Comment calculer mon
+                indice</button>
+            <button class="nav-link" id="nav-Calculatrice-tab" data-bs-toggle="tab" data-bs-target="#nav-Calculatrice"
+                type="button" role="tab" aria-controls="nav-Calculatrice" aria-selected="false">Calculatrice</button>
+            <button class="nav-link" id="nav-age-tab" data-bs-toggle="tab" data-bs-target="#nav-age"
+                type="button" role="tab" aria-controls="nav-age" aria-selected="false">Vôtre age</button>
+        </div>
+
+        <main>
+            <div class="tab-content" id="nav-tabContent">
+                <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+
+                    <h2 id="Qu'est-ce ?">Qu'est-ce que l'IMC ?</h2>
+
+                    <p>L'<a href="https://www.passeportsante.net/fr/Nutrition/Regimes/Fiche.aspx?doc=IMC" title="IMC">IMC</a> est un nombre permettant d'évaluer la situation de sur- ou sou-poids d'une<br>
+                        personne. L'OMS utilise l'<a href="https://www.passeportsante.net/fr/Nutrition/Regimes/Fiche.aspx?doc=IMC">IMC</a> comme outil standard pour évaluer les risques liés au<br>
+                        surpoids.<br>
+                        <br>
+                        Les intervalles de l'IMC sont les suivants :
+                    </p>
+
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>IMC</th>
+                                <th>description</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>moins de<br>16,5</td>
+                                <td>dénutrition</td>
+                            </tr>
+                            <tr>
+                                <td>16,5 à 18,5</td>
+                                <td>maigreur</td>
+                            </tr>
+                            <tr>
+                                <td>18,5 à 25</td>
+                                <td>poids normal</td>
+                            </tr>
+                            <tr>
+                                <td>25 à 30</td>
+                                <td>surpoids</td>
+                            </tr>
+                            <tr>
+                                <td>30 à 35</td>
+                                <td>obésité modérée</td>
+                            </tr>
+                            <tr>
+                                <td>35 à 40</td>
+                                <td>obésité sévère</td>
+                            </tr>
+                            <tr>
+                                <td>40 et plus</td>
+                                <td>obésité morbide ou<br>massive</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+
+                    <h2 id="Comment calculer mon indice">Comment calculer l'IMC ?</h2>
+                    <p>
+                        L'
+                        <a href="https://www.passeportsante.net/fr/Nutrition/Regimes/Fiche.aspx?doc=IMC" title="IMC">IMC</a>
+                         se calcule en fonction du poids (P, en kilogrammes) et la taille (T, en mètres) de
+                        <br>
+                        la personne. La formule est P/T².
+                        <br>
+                        <br>
+                        Exemple : une personne mesurant 1,74 m pour un poids de 65,5 kg : son IMC est<br>
+                        <br>
+                        IMC = 65,5 / 1,74² = 65,5 / 3,0276 = 21,6(21,6 kg/m²)
+                    </p>
+
+                </div>
+
+
+
+                <div class="tab-pane fade" id="nav-Calculatrice" role="tabpanel" aria-labelledby="nav-Calculatrice-tab">
+
+                    <form id="bmiform">
+                        <h2 id="Calculatrice">Que vaut mon IMC</h2>
+                        <label for="poids">Poids </label>
+                        <input id="poids" type="number" placeholder="kg">
+                        <br>
+                        <label for="taille">Taille</label>
+                        <input id="taille" type="number" placeholder="m">
+                        <br>
+                        <button id="btn1" type="button">Calculer</button>
+                    </form>
+
+                    <div class="hide">
+
+                        <p>Avec votre taille, voici votre catégorie d'IMC en fonction de votre poids :</p>
+
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Poids</th>
+                                    <th>description</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="dénutrition">
+                                    <td id="poids1"></td>
+                                    <td>dénutrition</td>
+
+                                </tr>
+                                <tr class="maigreur">
+                                    <td id="poids2"></td>
+                                    <td>maigreur</td>
+                                </tr>
+                                <tr class="poidsNormal">
+                                    <td id="poids3"></td>
+                                    <td>poids normal</td>
+                                </tr>
+                                <tr class="surpoids">
+                                    <td id="poids4"></td>
+                                    <td>surpoids</td>
+                                </tr>
+                                <tr class="obésitéModérée">
+                                    <td id="poids5"></td>
+                                    <td>obésité modérée</td>
+                                </tr>
+                                <tr class="obésitéSévère">
+                                    <td id="poids6"></td>
+                                    <td>obésité sévère</td>
+                                </tr>
+                                <tr class="obésitéMorbide">
+                                    <td id="poids7"></td>
+                                    <td>obésité morbide ou<br>massive</td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                    </div>
+
+                    <button class="btn2">Enregister</button>
+
+                </div>
+
+                <div class="tab-pane fade" id="nav-age" role="tabpanel" aria-labelledby="nav-age-tab">
+                    <div id="ageTab">
+                    <h2>Quel est votre âge ?</h2>
+                    <label for="age1">Âge </label>
+                    <input type="number" id="age1">
+
+                    <button class="btn3">Calculer</button>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <p>Matrricules<br>58137</p>
+            <p>Nom<br>Essomba</p>
+            <p>Prénom<br>Florian</p>
+            <p>Groupe<br>B113</p>
+            <p>Professeur<br>SRE</p>
+        </footer>
+
+    
+
+    <script src="javascript/bootstrap.js"></script>
+    <script src="javascript/jquery.js"></script>
+    <script src="javascript/script.js"></script>
+</body>
+
+</html>

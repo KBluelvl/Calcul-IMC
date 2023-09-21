@@ -1,0 +1,92 @@
+header{
+    grid-area: header;
+}
+
+aside{
+    grid-area: aside;
+    min-width: 150px;
+    background-color: whitesmoke;
+}
+
+aside a{
+    text-decoration: none;
+    font-size: 0.95em;
+}
+
+main{
+    grid-area: main;
+    background-color: rgb(247, 247, 247);
+    padding-bottom: 30%;
+    min-width: 680px;
+}
+
+main th{
+    border-bottom: 2px solid gray;
+}
+
+main td{
+    border-bottom: 1px solid gainsboro;
+}
+
+footer{
+    grid-area: footer;
+}
+
+button{
+    font-weight: bold; /* mettre en gras */
+    font-family: sans-serif;
+    background-color: royalblue;
+    color: white;
+    cursor: pointer;
+    border: 1px solid rgba(27, 31, 35, 0.15);
+    border-radius: 4px; /* arrondir les bords */
+    padding: 10px 14px; /* La taille de l'intérieur - hauteur longueur*/
+    margin-left: 1%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+button:hover{
+    color: rgb(61, 48, 48);
+}
+
+button:active{
+    background-color: rgb(65, 134, 225);
+}
+
+.hide{
+    display: none;
+}
+
+.myIMC{
+    background-color: lightskyblue;
+}
+
+.stored{
+    border: 2px solid navy;
+}
+
+input{
+    margin-bottom: 5px;
+}
+
+#nav-profile{
+    padding-bottom: 30%;
+}
+
+#nav-Calculatrice{
+    padding-bottom: 30%;
+}
+
+.monAge{
+    background-color: red;
+}
+
+body{
+    display: grid;
+    grid-template-areas:
+    'header header'
+    'aside nav'
+    'aside main'
+    'footer footer';
+}

@@ -1,0 +1,41 @@
+article{
+    border: 1px solid gainsboro;
+    width: 225px;
+    margin-bottom: 30%;
+    margin-left: 50%;
+    margin-top: 10%;
+    background-color: aliceblue;
+}
+
+img{
+    padding: 10px;
+}
+
+header{
+    background-color: rgb(45, 45, 45);
+    color: white;
+    margin-left: 20%;
+    margin-right: 20%;
+    border: thick double white;
+}
+
+main{
+    font-size: 100%;
+    float: left;
+    margin-top: 15%;
+    margin-left: 5%;
+}
+
+main h2{
+    text-align: center;
+}
+
+main a {
+    text-align: center;
+}
+
+a{
+    color: lightskyblue;
+}
+
+
