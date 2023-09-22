@@ -133,13 +133,13 @@ function infoAge() {
         if (ageUtil < 18) {
             $("#mineur").addClass("monAge");
         }
-        else if (ageUtil > 18 || ageUtil < 60 || ageUtil == 18) {
+        else if (ageUtil >= 18 && ageUtil <= 60) {
             $("#adulte").addClass("monAge");
         }
         else {
             $("#senior").addClass("monAge");
         }
-    } 
+    }); 
 }
 
 
