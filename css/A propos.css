@@ -1,22 +1,13 @@
-aside a{
-    text-decoration: none;
-}
-
 header{
     grid-area: header;
 }
 
-aside{
-    grid-area: aside;
-    min-width: 150px;
-    background-color: whitesmoke;
-}
-
 main{
     grid-area: main;
-    background-color: rgb(245, 247, 247);
+    background-color: #d5eeff;
     padding-bottom: 80%;
     min-width: 680px;
+    border-top: 50px solid #004445;
 }
 
 footer{

@@ -2,20 +2,9 @@ header{
     grid-area: header;
 }
 
-aside{
-    grid-area: aside;
-    min-width: 150px;
-    background-color: whitesmoke;
-}
-
-aside a{
-    text-decoration: none;
-    font-size: 0.95em;
-}
-
 main{
     grid-area: main;
-    background-color: rgb(247, 247, 247);
+    background-color: #d5eeff;
     padding-bottom: 30%;
     min-width: 680px;
 }
@@ -32,10 +21,19 @@ footer{
     grid-area: footer;
 }
 
+body{
+    display: grid;
+    grid-template-areas:
+    'header header'
+    'aside nav'
+    'aside main'
+    'footer footer';
+}
+
 button{
     font-weight: bold; /* mettre en gras */
     font-family: sans-serif;
-    background-color: royalblue;
+    background-color: #0092ca;
     color: white;
     cursor: pointer;
     border: 1px solid rgba(27, 31, 35, 0.15);
@@ -66,8 +64,16 @@ button:active{
     border: 2px solid navy;
 }
 
+.monAge{
+    background-color: #00bbf0;
+}
+
 input{
     margin-bottom: 5px;
+}
+
+#nav-tab{
+    background-color: #004445;
 }
 
 #nav-profile{
@@ -78,15 +84,11 @@ input{
     padding-bottom: 30%;
 }
 
-.monAge{
-    background-color: red;
+.nav-link {
+    color: white;
 }
 
-body{
-    display: grid;
-    grid-template-areas:
-    'header header'
-    'aside nav'
-    'aside main'
-    'footer footer';
+.nav-link:hover{
+    color: #004445;
+    background-color: white;
 }
