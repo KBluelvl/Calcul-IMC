@@ -5,7 +5,7 @@ header{
 main{
     grid-area: main;
     background-color: #d5eeff;
-    padding-bottom: 80%;
+    min-height: 650px;
     min-width: 680px;
     border-top: 50px solid #004445;
 }

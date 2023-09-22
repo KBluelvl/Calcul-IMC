@@ -5,8 +5,8 @@ header{
 main{
     grid-area: main;
     background-color: #d5eeff;
-    padding-bottom: 30%;
     min-width: 680px;
+    min-height: 650px;
 }
 
 main th{
