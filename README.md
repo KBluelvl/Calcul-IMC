@@ -1,7 +1,7 @@
 # Calcul-IMC
 
 1. [FR](FR)
-2. [ENG](ENG)
+2. [EN](EN)
 
 # 1. FR
 
@@ -33,7 +33,7 @@ Les notes de l'auteur.
 
 <img src="https://github.com/KBluelvl/Calcul-IMC/blob/main/image/readme/IMC_3.PNG" width="250">
 
-# 2. ENG
+# 2. EN
 
 This project was created as part of my Web Developpement course. It is a website for calculating Body Mass Index (BMI) written in JavaScript/HTML/CSS. All content are in FRENCH. 
 
