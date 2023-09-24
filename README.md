@@ -3,7 +3,7 @@
 1. [FR](FR)
 2. [ENG](ENG)
 
-# FR
+# 1. FR
 
 Ce projet a été réalisé dans le cadre de mon cours de de Développement Web. Il s'agit d'un site web permettant de calculer l'Indice de Masse Corporelle (IMC) écrit en javascript/html/css.
 
@@ -33,7 +33,7 @@ Les notes de l'auteur.
 
 <img src="https://github.com/KBluelvl/Calcul-IMC/blob/main/image/readme/IMC_3.PNG" width="250">
 
-# ENG
+# 2. ENG
 
 This project was created as part of my Web Developpement course. It is a website for calculating Body Mass Index (BMI) written in JavaScript/HTML/CSS. All content are in FRENCH. 
 
