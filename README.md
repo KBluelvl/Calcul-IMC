@@ -1,6 +1,6 @@
 # Calcul-IMC
 
-1. [FR](FR)
+1. [FR](README.md#1-fr)
 2. [EN](EN)
 
 # 1. FR
