@@ -1,7 +1,7 @@
 # Calcul-IMC
 
-1. [FR](README.md#1-fr)
-2. [EN](EN)
+1. [FR](https://github.com/KBluelvl/Calcul-IMC/tree/main?tab=readme-ov-file#1-fr)
+2. [EN](https://github.com/KBluelvl/Calcul-IMC/tree/main?tab=readme-ov-file#2-en)
 
 # 1. FR
 
